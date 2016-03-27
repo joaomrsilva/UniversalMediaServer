@@ -37,5 +37,7 @@ UMS is free, that itself can be considered a feature.
 
 This software requires Java and mediainfo (mediainfo openjdk-7-jre). Optionally, dcraw and VLC can also be used with Universal Media Server.
 
+To compile from source, it requires Eclipse IDE for Java Developers, Maven, m2e Eclipse plugin and EGit Eclipse plugin.
+
 TODO: falar um pouco mais sobre que tecnologias implementa, quais os requesitos funcionais/nao funcionais do projeto
 restrições e limitações
