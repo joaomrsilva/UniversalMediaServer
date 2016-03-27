@@ -9,6 +9,8 @@ Originally it was based on PS3 Media Server which allows the user to access wind
 
 Although being based on PS3 Media Server , Universal Media Server , has some enhancements over its predecessor which include web interface support for non-DLNA devices, more supported renderers , automatic bit rate adjustment, and many other transcoding improvements.
 
+###How it works
+
 ###Compatibility
 Universal Media Server supports all major operating systems, with versions for Windows, Linux and Mac OS X. The program streams  many different media formats with little or no configuration. It is powered by MEncoder, FFmpeg, tsMuxeR, MediaInfo, VLC, OpenSubtitles.org and more, which combine to offer support for a wide range of media formats , allowing the user to obtain any subtitle and to play any type of video format without having to look for a video player that is able to decode it either it being a .mkv,.mp4,.flv.,.wmv, .avi or .3gp .
 
