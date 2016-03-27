@@ -12,6 +12,27 @@ Although being based on PS3 Media Server , Universal Media Server , has some enh
 ###Compatibility
 Universal Media Server supports all major operating systems, with versions for Windows, Linux and Mac OS X. The program streams  many different media formats with little or no configuration. It is powered by MEncoder, FFmpeg, tsMuxeR, MediaInfo, VLC, OpenSubtitles.org and more, which combine to offer support for a wide range of media formats , allowing the user to obtain any subtitle and to play any type of video format without having to look for a video player that is able to decode it either it being a .mkv,.mp4,.flv.,.wmv, .avi or .3gp .
 
+###Features
+UMS provides many features that might not be available on other popular media servers, such as:  
+* **Automatic maximum quality** - 100% video and audio quality maintained when possible by multiplexing.  
+* **Intant browsing** - Files can be viewed without the need to wait for folders to be rescanned, which could take a long time with large libraries.  
+* **Subtitles** - Even if the device used does not support the subtitle format in the video, it will be added anyway to the video stream. Subtitles can also be added via options on the device.  
+* **DTS support** - Full quality DTS instead of downmixing it to a different format.  
+* **H.264 transcoding* - Provides the same quality as MPEG-2, with lower filesize, a good option for wireless networks.  
+* **True Motion (frame interpolation)** - Adds frames to the regular framerate to make the motion smoother and realistic. This is achieved using InterFrame, an AviSynth plugin that uses SVP libraries.  
+* **Overscan compensation** - If the device is a TV, it might cut off the edges of the video, UMS compensates so the whole video is displayed.  
+* **Automatic plugin download/install** - It is possible to download and install plugins automatically from within the program.  
+* **Unlimited folders on PS3 and Xbox** - Traditionally, PS3 and Xbox 360 only display a limited number of folders, UMS has a work around for that.  
+* **AviSynth** - UMS supports AviSynth, a powerful and flexible video and audio serving program.  
+* **iTunes** - UMS supports iTunes, the user can browse his iTunes library by playlist, artist, album, genre.  
+* **Renderers** - UMS supports rederers with search capability.  
+* **Network Bandwith Settings** - User can set the speed of his network to ensure smooth playing.    
+* **DVD Support** - DVD playing is supported, whether they are in the DVD drive or in the hard drive.    
+* **Archives** - Browsing archives is supported, like ZIP, RAR, GZ, etc.  
+* **High-quality video thumbnails** - Maximum quality and resolutions thumbnails that the device can handle.  
+
+UMS is free, that itself can be considered a feature.
+
 ###Dependencies
 
 This software requires Java and mediainfo (mediainfo openjdk-7-jre). Optionally, dcraw and VLC can also be used with Universal Media Server.
