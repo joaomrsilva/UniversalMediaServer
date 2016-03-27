@@ -18,7 +18,7 @@ UMS provides many features that might not be available on other popular media se
 * **Intant browsing** - Files can be viewed without the need to wait for folders to be rescanned, which could take a long time with large libraries.  
 * **Subtitles** - Even if the device used does not support the subtitle format in the video, it will be added anyway to the video stream. Subtitles can also be added via options on the device.  
 * **DTS support** - Full quality DTS instead of downmixing it to a different format.  
-* **H.264 transcoding* - Provides the same quality as MPEG-2, with lower filesize, a good option for wireless networks.  
+* **H.264 transcoding** - Provides the same quality as MPEG-2, with lower filesize, a good option for wireless networks.  
 * **True Motion (frame interpolation)** - Adds frames to the regular framerate to make the motion smoother and realistic. This is achieved using InterFrame, an AviSynth plugin that uses SVP libraries.  
 * **Overscan compensation** - If the device is a TV, it might cut off the edges of the video, UMS compensates so the whole video is displayed.  
 * **Automatic plugin download/install** - It is possible to download and install plugins automatically from within the program.  
