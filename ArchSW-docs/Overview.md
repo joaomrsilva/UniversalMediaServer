@@ -48,7 +48,7 @@ This software requires Java and mediainfo (mediainfo openjdk-7-jre). Optionally,
 
 To compile from source, it requires Eclipse IDE for Java Developers, Maven, m2e Eclipse plugin and EGit Eclipse plugin.
 
-The website of the founder also has the option to download a little programm that installs the UMS without having to compile it from source , it's available for Mac Os X, Linux and Windows.
+The website of the founder also has the option to download a little program that installs the UMS without having to compile it from source , it's available for Mac Os X, Linux and Windows.
 
 ###Limitations
 
