@@ -63,8 +63,7 @@ Once done you'll see a new folder at the top on your render called "Folder Limit
 ###Restrictions 
 Universal Media Player uses DLNA . Now DLNA is a protocol that doesn't have any real definition of a "user". You don't have to "logon" to your TV for example. This leads to that all renders gets access to the same data. This might not be what you want. For example if you have two folders one that is kid-Friendly and another that is kid-Unfriendly you might want restrict the renders in the kids room to only have access to the kid-Friendly folder. UMS provides a number of methods to control the access, of information , by defining a Pin(just like the Atm one a sequence of 4 numbers from 0-9) ensuring that only the people tha know the code have access to its contents. 
 
-Falta:falar quais os requesitos funcionais/nao funcionais do projeto.
-
-Os requesitos nao funcionais acho que já mencionamos ao longo do relatorio encontrei uma definiçao na net 
-" Requisitos não funcionais são relacionados ao uso da aplicação em termos de desempenho, usabilidade, confiabilidade, disponibilidade, segurança e tecnologias envolvidas. Muitas vezes, os requisitos não funcionais acabam gerando restrições aos funcionais."
-basicamente sao as limitaçoes e as caracteristicas do programa .
+###Logical View
+It represents what the system should provide to its users in terms of services.
+We will represent it using The Booch Notation.
+Depois vou adicionar O booch model feito aqui
