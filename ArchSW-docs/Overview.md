@@ -69,4 +69,4 @@ We will represent it using The Booch Notation.
 Depois vou adicionar O booch model feito aqui
 
 ###Process View
-Allows is to show what the system does at high-level , it is also useful to represent how all the steps within a process are complementary, making it possible, to evaluate the non-functional requirements such as perfomance, scability among others.
+Allows us to show what the system does at high-level , it is also useful to represent how all the steps within a process are complementary, making it possible, to evaluate the non-functional requirements such as performance, scalability among others.
