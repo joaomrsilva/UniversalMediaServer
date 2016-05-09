@@ -66,7 +66,7 @@ Universal Media Player uses DLNA . Now DLNA is a protocol that doesn't have any 
 ###Logical View
 It represents what the system should provide to its users in terms of services.
 We will represent it using The Booch Notation.
-Depois vou adicionar O booch model feito aqui
+![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/BoochModel.png)
 
 ###Process View
 Allows us to show what the system does at high-level , it is also useful to represent how all the steps within a process are complementary, making it possible, to evaluate the non-functional requirements such as performance, scalability among others.
