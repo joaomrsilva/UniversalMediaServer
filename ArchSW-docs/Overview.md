@@ -78,4 +78,4 @@ Allows us to show what the system does at high-level , it is also useful to repr
 ###Deployement View
 ![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Deployment View.jpg)
 ###Physical View
-![alt tag]https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Physical view.jpg
+![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Physical view.jpg)
