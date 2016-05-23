@@ -1,9 +1,17 @@
 ###Navigation
 ---
 * [How it works](#how-it-works)
+* [Compatibility](#compatibility)
+* [Features](#features)
+* [Dependencies](#dependencies)
+* [Limitations](#limitations)
+* [Restrictions](#restrictions)
 * 4+1 Archietecture
+  * [Use Case View](#use-case-view)
   * [Logical View](#logical-view)
   * [Process View](#process-view)
+  * [Deployement View](#deployement-view)
+  * [Physical View](#physical-view)
   
 
 
