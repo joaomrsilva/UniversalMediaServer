@@ -1,3 +1,11 @@
+###Navigation
+---
+* [How it works](#how-it-works)
+* 4+1 Archietecture
+  * [Logical View](#logical-view)
+  * [Process View](#process-view)
+  
+
 
 ###Universal Media Server 
 Universal Media Server (UMS) is a media server, developed using Java, capable of sharing  videos, audio and images to any DLNA-capable device ( Digital Living Network Alliance)  basically it is a set of interoperability guidelines for sharing digital media among multimedia devices. DLNA works with cable and satellite  to provide link protection on each end of the data transfer.
