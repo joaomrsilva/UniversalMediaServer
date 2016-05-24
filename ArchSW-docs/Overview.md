@@ -90,7 +90,7 @@ In the next package diagram you can see the separation of the system in various 
 ###Process View
 Allows us to show what the system does at high-level, it is also useful to represent how all the steps within a process are complementary, making it possible, to evaluate the non-functional requirements such as performance, scalability among others.
 
-![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Process View uml.jpg)
+![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Process View.jpg)
 
 ###Deployement View
 ![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Deployment View.jpg)
