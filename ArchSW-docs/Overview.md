@@ -6,12 +6,13 @@
 * [Dependencies](#dependencies)
 * [Limitations](#limitations)
 * [Restrictions](#restrictions)
-* 4+1 Archietecture
-  * [Use Case View](#use-case-view)
+* [4 + 1 Archietecture](#4-+-1-archietecture)
   * [Logical View](#logical-view)
   * [Process View](#process-view)
   * [Deployement View](#deployement-view)
   * [Physical View](#physical-view)
+  * [Use Case View](#use-case-view)
+* [Conclusion](#conclusion)
   
 
 
@@ -79,13 +80,22 @@ Once done you'll see a new folder at the top on your render called "Folder Limit
 ###Restrictions 
 Universal Media Player uses DLNA . Now DLNA is a protocol that doesn't have any real definition of a "user". You don't have to "logon" to your TV for example. This leads to that all renders gets access to the same data. This might not be what you want. For example if you have two folders one that is kid-Friendly and another that is kid-Unfriendly you might want restrict the renders in the kids room to only have access to the kid-Friendly folder. UMS provides a number of methods to control the access, of information , by defining a Pin(just like the Atm one a sequence of 4 numbers from 0-9) ensuring that only the people tha know the code have access to its contents. 
 
-###Use Case View
-In software and systems engineering, a use case is a list of actions or event steps, typically defining the interactions between a role and a system, to achieve a goal.
-As already mentioned above the Universal Media Server is a program that allows its users to use it without the need to know any details of the implementation to interact with this software and take full advantage of the program such as sharing content over a private network using an easy to understand interface .
-![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Use Case View.jpg)
+###4 + 1 Archietecture
+In this report we will use the model views [ 4 + 1  ] ( https://en.wikipedia.org/wiki/4%2B1_architectural_view_model ) Software Architecture to describe the project that we selected . This model is useful because it is the same software interpreted through different points of view. The 5 components of this model are as follows :
+ - Logical view ( Package Diagram ) 
+ - Process view ( Activity Diagram )
+ - Deployment View ( Deployment Diagram ) 
+ - Implementation View ( Component Diagram ) 
+ - Use Case View
+
 ###Logical View
-In the next package diagram you can see the separation of the system in various source components and dependencies between packages featuring the logical view of the project under study
+In the next package diagram you can see the separation of the system in various source components and dependencies between packages. 
+The Logical View shows the project has a organization and relationship between folders and import modules necessary for the operation of the program.
 ![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Logical View.jpg)
+In our example we identified two major packages :
+ * **NewGui** : This is the main package it's responsible for all the display of the graphical interface , be it buttons or tabs, so that the user can use it in an easy and convenient way.
+ * **Network** : Is made up of all the files that allow access to the network that was created and at the same time its the main component between the graphical interface and all the content that is stored in the database.
+
 
 ###Process View
 Allows us to show what the system does at high-level, it is also useful to represent how all the steps within a process are complementary, making it possible, to evaluate the non-functional requirements such as performance, scalability among others.
@@ -93,6 +103,14 @@ Allows us to show what the system does at high-level, it is also useful to repre
 ![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Process View.jpg)
 
 ###Deployement View
+The Deployment View shows the distribution of both the software and the hardware, as well as their interactions.
 ![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Deployment View.jpg)
+There exists a host device that acts has an intermediary between the user inputs and the content that the user wants to access which is located in the network.
+The host device contains all the encoders, gui and formats for the content, on the other hand the network is responsible for keeping track of all accesses to the network and the databases of content that exist within the network.
 ###Physical View
 ![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Physical view.jpg)
+###Use Case View
+In software and systems engineering, a use case is a list of actions or event steps, typically defining the interactions between a role and a system, to achieve a goal.
+As already mentioned above the Universal Media Server is a program that allows its users to use it without the need to know any details of the implementation to interact with this software and take full advantage of the program such as sharing content over a private network using an easy to understand interface.
+![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Use Case View.jpg)
+###Conclusion
