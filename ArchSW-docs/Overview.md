@@ -9,7 +9,7 @@
 * [4 + 1 Archietecture](#4-+-1-archietecture)
   * [Logical View](#logical-view)
   * [Process View](#process-view)
-  * [Deployement View](#deployement-view)
+  * [Development View](#development-view)
   * [Physical View](#physical-view)
   * [Use Case View](#use-case-view)
 * [Conclusion](#conclusion)
