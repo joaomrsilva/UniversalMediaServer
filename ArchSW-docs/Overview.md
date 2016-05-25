@@ -117,7 +117,7 @@ Allows us to show what the system does at high-level, it is also useful to repre
 ---
 The physical view describes the hardware components in wich software is developed. The main functions of this type of diagrams are show the hardware organization (nodes and their connections) and describe the hardware components used to unfold software. So, it's responsable to show to the developers how the components are unfolded in hardware.
 
-![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Physical View.jpg)
+![alt tag](https://github.com/joaomrsilva/UniversalMediaServer/blob/master/ArchSW-docs/Physical%20View.jpg)
 
 There exists a host device that acts has an intermediary between the user inputs and the content that the user wants to access which is located in the network.
 The host device contains all the encoders, gui and formats for the content, on the other hand the network is responsible for keeping track of all accesses to the network and the databases of content that exist within the network.
