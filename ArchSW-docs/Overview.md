@@ -116,7 +116,9 @@ Allows us to show what the system does at high-level, it is also useful to repre
 ###Physical View
 ---
 The physical view describes the hardware components in wich software is developed. The main functions of this type of diagrams are show the hardware organization (nodes and their connections) and describe the hardware components used to unfold software. So, it's responsable to show to the developers how the components are unfolded in hardware.
-![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Physical view.jpg)
+
+![alt tag](https://github.com/txEn/UniversalMediaServer/blob/master/ArchSW-docs/Physical View.jpg)
+
 There exists a host device that acts has an intermediary between the user inputs and the content that the user wants to access which is located in the network.
 The host device contains all the encoders, gui and formats for the content, on the other hand the network is responsible for keeping track of all accesses to the network and the databases of content that exist within the network.
 
@@ -134,6 +136,6 @@ The [Logical View](#logical-view) is expressed by a package diagram, shows an ab
 
 [Process View](#process-view) is represented by an activity diagram, which shows the most relevant activities performed by the user side. They could be identified more activities, particularly on the server side, but we think that those are performed by the user have greater relevance.
 
-With the [Deployement View](#deployement-view) we can show how are distributed the components of software and hardware, and managed to have a better idea of the functioning of some interactions of the system.
+With the [Physical View](#physical-view) we can show how are distributed the components of software and hardware, and managed to have a better idea of the functioning of some interactions of the system.
 
 The project presents a satisfactory structure, but the task of extracting information to build some of the diagrams presented was not the simplest.
