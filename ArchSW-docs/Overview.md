@@ -111,6 +111,7 @@ Allows us to show what the system does at high-level, it is also useful to repre
 
 ###Development View
 ---
+The development view or implementation view represents the organization of the system components. It can be divide in several diagrams, and each one it's used to model parts of the system like documents, executables and libraries and to show their dependencies. At the end the main function of this type of view is to visualize the system components and their organization and relationships.
 
 
 ###Physical View
