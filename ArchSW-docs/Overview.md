@@ -90,8 +90,8 @@ Universal Media Player uses DLNA . Now DLNA is a protocol that doesn't have any 
 In this report we will use the model views [ 4 + 1  ] ( https://en.wikipedia.org/wiki/4%2B1_architectural_view_model ) Software Architecture to describe the project that we selected . This model is useful because it is the same software interpreted through different points of view. The 5 components of this model are as follows :
  - Logical view ( Package Diagram ) 
  - Process view ( Activity Diagram )
- - Deployment View ( Deployment Diagram ) 
- - Implementation View ( Component Diagram ) 
+ - Development View ( Component Diagram ) 
+ - Physical View ( Deployment Diagram ) 
  - Use Case View
 
 ###Logical View
