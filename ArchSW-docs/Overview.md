@@ -113,6 +113,8 @@ Allows us to show what the system does at high-level, it is also useful to repre
 ---
 The development view or implementation view represents the organization of the system components. It can be divide in several diagrams, and each one it's used to model parts of the system like documents, executables and libraries and to show their dependencies. At the end the main function of this type of view is to visualize the system components and their organization and relationships.
 
+![alt tag](https://github.com/Wargyy/reddit/blob/master/ESOF-docs/diagrams/ComponentDiagram.png)
+
 
 ###Physical View
 ---
@@ -136,6 +138,8 @@ All diagrams present in the report were prepared by the authors of the same, and
 The [Logical View](#logical-view) is expressed by a package diagram, shows an abstraction of a system as a set of classes and the relationships between them. The packages are divided according to the features that implement and are described explicitly in the project repository.
 
 [Process View](#process-view) is represented by an activity diagram, which shows the most relevant activities performed by the user side. They could be identified more activities, particularly on the server side, but we think that those are performed by the user have greater relevance.
+
+[Development View](#development-view) this view illustrates a system from a programmer's perspective and is concerned with software management. Showing how the system is organized between modules.
 
 With the [Physical View](#physical-view) we can show how are distributed the components of software and hardware, and managed to have a better idea of the functioning of some interactions of the system.
 
